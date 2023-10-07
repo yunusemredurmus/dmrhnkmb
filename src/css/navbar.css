@@ -3,12 +3,12 @@
   height: 10vh;
   width: 100vw;
   justify-content: center;
-  background-color: #14bdc0;
+  background-color: #1be1e5;
 }
 
 .Navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 50vw;
   height: 100%;
   color: white;
@@ -22,12 +22,6 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  width: 50vw;
-}
-
-.logo h1 {
-  font-weight: 2rem;
-  font-family: "Dela Gothic One", cursive;
 }
 
 .menu {
@@ -37,6 +31,7 @@
   color: white;
   font-size: 1.5rem;
   font-weight: 600;
+  margin-left: 300px;
 }
 
 #cizgi1 {
@@ -58,12 +53,25 @@
 
 #buttonIlet {
   border: 1px solid transparent;
-  background-color: #14bdc0;
   padding: 16px 40px;
   border-radius: 10px;
 }
 
 #buttonIlet:hover {
   background: rgb(86, 199, 52);
+  transform: perspective(1px) scale(1.05);
+}
+
+#phone {
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px rgb(86, 199, 52);
+  padding: 12px;
+  background: rgb(86, 199, 52);
+}
+
+#phone:hover {
   transform: perspective(1px) scale(1.05);
 }
